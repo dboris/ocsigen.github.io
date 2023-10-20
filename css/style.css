@@ -494,7 +494,7 @@ pre[class*="language-"].main-page-section-js_of_ocaml-js {
 /****** Reason switch button (from html_of_wiki) *****/
 button#reason {
   position: fixed;
-  right: 20px;
+  left: 20px;
   top: 120px;
   background-color: #ff8d52; /* orange */
   border-radius: 50%;
