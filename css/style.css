@@ -933,6 +933,9 @@ aside.concept {
   border: 4px #def solid;
   margin: 20px;
 }
+.screenshot img {
+  max-width: 600px;
+}
 
 /****** Page specific ******/
 /* intro tuto */
