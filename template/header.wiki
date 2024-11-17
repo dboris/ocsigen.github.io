@@ -9,7 +9,6 @@
 <<when-project when="ocsigen-toolkit"| @@class="logo-subproject"@@Toolkit>>
 <<when-project when="ocsigen-start"  | @@class="logo-subproject"@@Start>>
 <<when-project when="html_of_wiki"   | @@class="logo-subproject"@@html_of_wiki>>
-<<when-project when="deriving"       | @@class="logo-subproject"@@deriving>>
 <<when-project when="ocsimore"       | @@class="logo-subproject"@@Ocsimore>>
 
 <<div class="mainmenu"|
@@ -21,6 +20,8 @@
 <<when-project unless="eliom"        |                             [[wiki("eliom"):|Eliom]]>>
 <<when-project   when="js_of_ocaml"  | @@class="mainmenu-current"@@[[wiki("js_of_ocaml"):|Js_of_ocaml]]>>
 <<when-project unless="js_of_ocaml"  |                             [[wiki("js_of_ocaml"):|Js_of_ocaml]]>>
+<<when-project   when="ocsigenserver"          | @@class="mainmenu-current"@@[[wiki("ocsigenserver"):|Server]]>>
+<<when-project unless="ocsigenserver"          |                             [[wiki("ocsigenserver"):|Server]]>>
 <<when-project   when="lwt"          | @@class="mainmenu-current"@@[[wiki("lwt"):|Lwt]]>>
 <<when-project unless="lwt"          |                             [[wiki("lwt"):|Lwt]]>>
 <<when-project   when="tyxml"        | @@class="mainmenu-current"@@[[wiki("tyxml"):|Tyxml]]>>
@@ -42,8 +43,8 @@
 *@@class="drawermainmenu-project"@@[[wiki("tyxml"):|Tyxml]]
 *@@class="drawermainmenu-project"@@[[wiki("ocsigen-toolkit"):|Toolkit]]
 *@@class="drawermainmenu-project"@@[[wiki("ocsigen-start"):|Start]]
+*@@class="drawermainmenu-project"@@[[wiki("ocsipersist"):|Ocsipersist]]
 *@@class="drawermainmenu-project"@@[[wiki("html_of_wiki"):|html_of_wiki]]
-*@@class="drawermainmenu-project"@@[[wiki("deriving"):|deriving]]
 *@@class="drawermainmenu-project"@@[[wiki("ocsimore"):|Ocsimore (//deprecated//)]]
 *@@class="drawermainmenu-page"@@[[site:/projects|Other projects]]
 *@@class="drawermainmenu-page"@@[[site:/papers|Research papers]]
